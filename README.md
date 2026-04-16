@@ -49,7 +49,9 @@ cd Ghost-Phising
 python ghost-phising.py
 
 ```
-> ### ⚠️ **PENTING: DISCLAIMER & RESPONSIBLE USE**
+---
+
+> ## ⚠️ **PENTING: DISCLAIMER & RESPONSIBLE USE**
 >  1. **TUJUAN:** Project ini dibuat hanya untuk **riset, edukasi, dan pengujian keamanan** yang sah.
 >  2. **BATASAN:** Dilarang keras menggunakan tools ini untuk tindakan ilegal atau merugikan orang lain.
 >  3. **TANGGUNG JAWAB:** Pengguna bertanggung jawab penuh atas segala tindakan. **MamzStr** sebagai developer tidak bertanggung jawab atas penyalahgunaan atau konsekuensi hukum yang timbul.
