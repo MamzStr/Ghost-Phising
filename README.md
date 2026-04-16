@@ -1,5 +1,5 @@
 
-# ⚡ GHOST-PHISING v2.1 — TERMUX TOOLS (16-04-2026)
+# ⚡ GHOST-PHISING vNew — TERMUX TOOLS (16-04-2026)
 
 ---
 
@@ -42,9 +42,10 @@
 
 ## 📥 Installation (Termux)
 ```bash
-pkg update && pkg upgrade
-pkg install python git
-git clone [https://github.com/MamzStr/Ghost-Phising.git](https://github.com/MamzStr/Ghost-Phising.git)
+pkg update && pkg upgrade -y
+termux-setup-storage
+pkg install python git -y
+git clone https://github.com/MamzStr/Ghost-Phising.git
 cd Ghost-Phising
 python ghost-phising.py
 
