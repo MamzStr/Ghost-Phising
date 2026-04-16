@@ -60,14 +60,15 @@ python ghost-phising.py
 ## 📡 Kontak & Sosmed Developer
 | Platform | Link Resmi | Deskripsi |
 |---|---|---|
-| **Website** | lynk.id/mamzx | Portofolio & Link Utama |
-| **Telegram** | @MamzStr | Kontak Personal / Store |
-| **WhatsApp Channel** | Join Channel | Update & Support |
-| **Telegram Channel** | @allinfo_mamz | Info Tools & Script |
-| **YouTube** | @guehmamz | Video Tutorial |
-| **TikTok** | @guehmamz | Short Content |
-| **Instagram** | @guehmamz | Update Harian |
-| **GitHub** | MamzStr | Source Code & Projects |
+| **Website** | https://lynk.id/mamzx | Portofolio & Link Utama |
+| **WhatsApp** | https://wa.me/6285166615736 | Kontak Personal / Store |
+| **Telegram** | https://t.me/MamzStr | Kontak Personal / Store |
+| **WhatsApp Channel** | https://whatsapp.com/channel/0029VbBQaWD90x2pTqCqpd01 | Update & Support |
+| **Telegram Channel** | https://t.me/allinfo_mamz | Update & Support |
+| **YouTube** | https://youtube.com/@guehmamz | Video Tutorial |
+| **TikTok** | https://www.tiktok.com/@guehmamz | Short Content |
+| **Instagram** | https://instagram.com/guehmamz | Update Harian |
+| **GitHub** | https://github.com/MamzStr | Source Code & Projects |
+
 ## ⭐ Dukungan
 Jangan lupa berikan **⭐ Star** agar project ini tetap aktif dan terus berkembang! ❤️
-```
