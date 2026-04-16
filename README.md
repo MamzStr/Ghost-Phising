@@ -12,7 +12,7 @@
 
 <p align="left">
   <a href="https://github.com/MamzStr"><img alt="Developer" src="https://img.shields.io/badge/Developer-MamzStr-black?style=for-the-badge&logo=github"></a>
-  <img alt="Version" src="https://img.shields.io/badge/Version-2.1-purple?style=for-the-badge&logo=linux">
+  <img alt="Version" src="https://img.shields.io/badge/Version-New-purple?style=for-the-badge&logo=linux">
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge&logo=android">
   <a href="https://whatsapp.com/channel/0029VbBQaWD90x2pTqCqpd01/138"><img alt="Support" src="https://img.shields.io/badge/Support-WhatsApp-grey?style=for-the-badge&logo=whatsapp"></a>
 </p>
