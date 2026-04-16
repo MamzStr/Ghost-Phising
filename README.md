@@ -1,4 +1,4 @@
-```markdown
+
 # ⚡ GHOST-PHISING v2.1 — TERMUX TOOLS (16-04-2026)
 
 ---
