@@ -49,7 +49,6 @@ cd Ghost-Phising
 python ghost-phising.py
 
 ```
-> [!CAUTION]
 > ### ⚠️ **PENTING: DISCLAIMER & RESPONSIBLE USE**
 >  1. **TUJUAN:** Project ini dibuat hanya untuk **riset, edukasi, dan pengujian keamanan** yang sah.
 >  2. **BATASAN:** Dilarang keras menggunakan tools ini untuk tindakan ilegal atau merugikan orang lain.
